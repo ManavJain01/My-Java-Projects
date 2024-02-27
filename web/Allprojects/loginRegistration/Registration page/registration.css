@@ -1,0 +1,90 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: beige;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+}
+
+.signUp{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  gap: 90px;
+  padding: 5% 2%;
+  border: none;
+  box-shadow: 5px 1px 50px 0px black;
+}
+
+.signup-section{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.signup-section1{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.signup-section1 h1{
+  font-size: 250%;
+}
+
+.signup-section1 input{
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.signup-section2{
+  display: flex;
+  gap: 5px;
+}
+
+.signup-section2 p span{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.register-btn{
+  color: white;
+  background-color: rgb(21, 145, 187);
+  width: fit-content;
+  margin-top: 20px;
+  padding: 15px 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+.signup-img-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: larger;
+}
+
+.signup-img-section p{
+  text-decoration: underline;
+}
+
+.signup-icon{
+  width: 80%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.signup-icon:hover{
+  opacity: .8;
+}
